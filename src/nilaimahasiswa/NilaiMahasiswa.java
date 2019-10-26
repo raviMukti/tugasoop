@@ -64,19 +64,19 @@ public class NilaiMahasiswa {
                     mhs.setGrade("E");
                     keterangan = "TIDAK LULUS";
                 }
-                if (nilaiAkhir <= 50 && nilaiAkhir < 60) {
+                if (nilaiAkhir >= 50 && nilaiAkhir < 60) {
                     mhs.setGrade("D");
                     keterangan = "LULUS PERBAIKAN";
                 }
-                if (nilaiAkhir <= 60 && nilaiAkhir < 75) {
+                if (nilaiAkhir >= 60 && nilaiAkhir < 75) {
                     mhs.setGrade("C");
                     keterangan = "LULUS";
                 }
-                if (nilaiAkhir <= 75 && nilaiAkhir < 85) {
+                if (nilaiAkhir >= 75 && nilaiAkhir < 85) {
                     mhs.setGrade("B");
                     keterangan = "LULUS";
                 }
-                if (nilaiAkhir <= 85 && nilaiAkhir < 100) {
+                if (nilaiAkhir >= 85 && nilaiAkhir < 100) {
                     mhs.setGrade("A");
                     keterangan = "LULUS";
                 }
